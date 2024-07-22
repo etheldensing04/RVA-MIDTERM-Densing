@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 200vh;
+    background-color: #efb64d;
+}
+.header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77px;
+}
+.header-container img {
+    position: relative;
+    top: 20px;
+    left: 28px;
+    margin-right: 120px;
+}
+.menu-icon{
+    width: 50px;
+}
+.user-icon{
+    width: 40px;
+}
+.cart-icon{
+    width: 60px;
+}
+.kylle-fried{
+    position: relative;
+    top: 110px;
+    left: 60px;
+    font-family: sans-serif;
+}
+.hero-img1{
+    position: relative;
+
+}
