@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #efb64d;
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 77px;
+}
+
+.header-container img {
+  position: relative;
+  top: 20px;
+  left: 28px;
+  margin-right: 120px;
+} 
+
+.searh-textbox {
+  color: white;
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: x-large;
+  position: absolute;
+  top: 20px;
+  padding: 12px;
+  right: 40px;
+  width: 410px;
+  background-color: #dd9818;
+  border-radius: 32px;
+}
+
+.chicken-1 {
+  position: relative;
+  padding-top: 80px;
+  width: 100%;
+  height: 660px;
+}
+
+.chicken-1 .chicken-text {
+  position: relative;
+  width: 40%;
+}
+
+.chicken-1 .chicken-text .text {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-size:80px;
+  color: #bb2f2f;
+  background-color: #ffce0f;
+  width: 350px;
+  padding: 20px;
+  line-height: 120px;
+  border-radius: 64px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.chicken-1 .chicken-text .logo {
+  position: absolute;
+  top: 269px;
+  left: 204px;
+}
+
+.chicken-1 .chicken-text .price {
+  position: absolute;
+  top: 385px;
+  left: 65px;
+  font-family: 'Rubik Moonrocks', sans-serif;
+  background-color: #c83434;
+  font-size: 80px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #ffce0f;
+  rotate: 8deg;
+}
+
+.chicken-1 .item-img {
+  border-radius: 64px;
+  position: absolute;
+  width: 42%;
+  height: 500px;
+  top: 110px;
+  right: 60px;
+  background-color: #c83535;
+  padding: 2rem;
+}
+
+.chicken-1 .item-img .food {
+  position: relative;
+  top: 10px;
+  width: 98%;
+}
+
+
+.chicken-1 .item-img .icon {
+  position: relative;
+  top: -60px;
+  width: 15%;
+}
+
+.chicken-2 {
+  position: relative;
+  padding-top: 60px;
+  width: 100%;
+  height: 660px;
+}
+
+.chicken-2 .chicken-text {
+  position: absolute;
+  top: 40px;
+  width: 40%;
+  right: 60px;
+}
+
+.chicken-2 .chicken-text .text {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-size:80px;
+  color: #bb2f2f;
+  background-color: #ffce0f;
+  width: 350px;
+  padding: 20px;
+  line-height: 120px;
+  border-radius: 64px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.chicken-2 .chicken-text .logo {
+  position: absolute;
+  top: 269px;
+  left: 204px;
+}
+
+.chicken-2 .chicken-text .price {
+  position: absolute;
+  top: 385px;
+  left: 65px;
+  font-family: 'Rubik Moonrocks', sans-serif;
+  background-color: #c83434;
+  font-size: 80px;
+  width: 370px;
+  text-align: center;
+  color: #ffce0f;
+  rotate: 8deg;
+}
+
+.chicken-2 .item-img {
+  border-radius: 64px;
+  position: absolute;
+  width: 45%;
+  height: 600px;
+  top: 30px;
+  left: 60px;
+  background-color: #c83535;
+  padding: 2rem;
+}
+
+.chicken-2 .item-img .food {
+  position: relative;
+  top: -20px;
+  width: 90%;
+}
+
+.chicken-2 .item-img .icon {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  width: 15%;
+}
+
+.chicken-3{
+  position: relative;
+  padding-top: 80px;
+  width: 100%;
+  height: 660px;
+}
+
+.chicken-3 .chicken-text {
+  position: relative;
+  width: 40%;
+}
+
+.chicken-3 .chicken-text .text {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-size:80px;
+  color: #bb2f2f;
+  background-color: #ffce0f;
+  width: 350px;
+  padding: 20px;
+  line-height: 120px;
+  border-radius: 64px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.chicken-3 .chicken-text .logo {
+  position: absolute;
+  top: 269px;
+  left: 204px;
+}
+
+.chicken-3 .chicken-text .price {
+  position: absolute;
+  top: 385px;
+  left: 65px;
+  font-family: 'Rubik Moonrocks', sans-serif;
+  background-color: #c83434;
+  font-size: 80px;
+  width: 370px;
+  text-align: center;
+  color: #ffce0f;
+  rotate: 8deg;
+}
+
+.chicken-3 .item-img {
+  border-radius: 64px;
+  position: absolute;
+  width: 42%;
+  height: 500px;
+  top: 110px;
+  right: 60px;
+  background-color: #c83535;
+  padding: 2rem;
+}
+
+.chicken-3 .item-img .food {
+  position: relative;
+  top: 50px;
+  width: 98%;
+}
+
+.chicken-3 .item-img .icon {
+  position: relative;
+  bottom: -80px;
+  width: 15%;
+}
+
+.chicken-4 {
+  position: relative;
+  padding-top: 60px;
+  width: 100%;
+  height: 660px;
+}
+
+.chicken-4 .chicken-text {
+  position: absolute;
+  top: 40px;
+  width: 40%;
+  right: 60px;
+}
+
+.chicken-4 .chicken-text .text {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-size:80px;
+  color: #bb2f2f;
+  background-color: #ffce0f;
+  width: 350px;
+  padding: 20px;
+  line-height: 120px;
+  border-radius: 64px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.chicken-4 .chicken-text .logo {
+  position: absolute;
+  top: 269px;
+  left: 204px;
+}
+
+.chicken-4 .chicken-text .price {
+  position: absolute;
+  top: 385px;
+  left: 65px;
+  font-family: 'Rubik Moonrocks', sans-serif;
+  background-color: #c83434;
+  font-size: 80px;
+  width: 370px;
+  text-align: center;
+  color: #ffce0f;
+  rotate: 8deg;
+}
+
+.chicken-4 .item-img {
+  border-radius: 64px;
+  position: absolute;
+  width: 45%;
+  height: 500px;
+  top: 30px;
+  left: 60px;
+  background-color: #c83535;
+  padding: 2rem;
+}
+
+.chicken-4 .item-img .food {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 90%;
+}
+
+.chicken-4 .item-img .icon {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  width: 15%;
+}
+
+.footer {
+  position: relative;
+  border-top: 2px solid #e5c68f;
+}
+
+.footer .footer-logo {
+  position: absolute;
+  top: 2px;
+  left: 18px;
+  width: 118px;
+  rotate: -14deg;
+}
+
+.footer .fb-icon {
+  position: absolute;
+  top: 22px;
+  left: 450px;
+  width: 70px;
+}
+
+.footer .twitter-icon {
+  position: absolute;
+  top: 24px;
+  left: 755px;
+  width: 70px;
+}
+
+.footer .ig-icon {
+  position: absolute;
+  top: 24px;
+  left: 600px;
+  width: 70px;
+}
